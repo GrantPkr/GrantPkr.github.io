@@ -1,27 +1,76 @@
-<nav>
-  <a href="index.html">About Me</a>
-  <a href="resume.html">Resume</a>
-  <a href="interests.html">Interests</a>
-  <a href="projects.html">Projects</a>
-  <a href="socials.html">Social Media</a>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grant Parker | Projects</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen">
+  <header class="border-b border-slate-800 bg-slate-950/90 sticky top-0 backdrop-blur z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <h1 class="text-2xl font-bold tracking-tight">Grant Parker</h1>
+        <p class="text-sm text-slate-400">Computer Science Student • AI • ML • Software Engineering</p>
+      </div>
+      <nav class="flex flex-wrap gap-3 text-sm font-medium">
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="index.html">About Me</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="resume.html">Resume</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="interests.html">Interests</a>
+        <a class="px-3 py-2 rounded-lg bg-slate-800 text-white" href="projects.html">Projects</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="socials.html">Social Media</a>
+      </nav>
+    </div>
+  </header>
 
-<h2>Highlights - Academic / Projects / Working</h2>
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <section class="mb-10">
+      <p class="text-sm uppercase tracking-[0.2em] text-sky-400 mb-3">Academic / Projects / Working</p>
+      <h2 class="text-4xl font-bold mb-4">Project Highlights</h2>
+      <p class="text-slate-300 text-lg leading-8 max-w-3xl">
+        This section highlights technical work that reflects my interests in AI, machine learning, software engineering, and intelligent decision-making systems.
+      </p>
+    </section>
 
-<h3>Capstone Project: Agentic Frontend Generation System</h3>
-<img src="assets/Festo Presentation.png" alt="Capstone project image" width="300">
-<p>
-One of the most important projects I have worked on is my capstone project involving an agentic system designed to generate production-aligned frontends. What makes this project valuable to me is that it exists within real constraints rather than as a purely classroom exercise. It required thinking about standards, workflows, and the gap between generated output and usable software. This project helped me better understand collaboration, software quality, and how intelligent systems need to be guided in order to produce results that are actually helpful in practice.
-</p>
+    <div class="grid gap-8">
+      <article class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-xl">
+        <img src="assets/Festo Presentation.png" alt="Capstone project image" class="w-full h-72 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-3">Capstone Project: Agentic Frontend Generation System</h3>
+          <p class="text-slate-300 leading-8">
+            One of the most important projects I have worked on is my capstone project involving an agentic system designed to generate production-aligned frontends. What makes this project valuable to me is that it exists within real constraints rather than as a purely classroom exercise. It required thinking about standards, workflows, and the gap between generated output and usable software. This project helped me better understand collaboration, software quality, and how intelligent systems need to be guided in order to produce results that are actually helpful in practice.
+          </p>
+        </div>
+      </article>
 
-<h3>AI/ML Trading Project</h3>
-<a href="https://github.com/GrantPkr/AIML_Trading">Link to repository</a>
-<p>
-Another project I want to highlight is my AI and machine learning trading project. This work focused on designing a system that used algorithmic and data-driven reasoning in a market-oriented setting. What I value most about this project is that it combined technical implementation with evaluation and interpretation. It pushed me to think more carefully about methods, assumptions, and how to present technical results clearly. It also gave me an opportunity to build something that connected machine learning ideas to a dynamic decision-making environment.
-</p>
+      <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
+        <h3 class="text-2xl font-semibold mb-3">AI/ML Trading Project</h3>
+        <a
+          href="https://github.com/GrantPkr/AIML_Trading"
+          target="_blank"
+          class="inline-block mb-4 text-sky-400 hover:text-sky-300 underline"
+        >
+          View Repository
+        </a>
+        <p class="text-slate-300 leading-8">
+          Another project I want to highlight is my AI and machine learning trading project. This work focused on designing a system that used algorithmic and data-driven reasoning in a market-oriented setting. What I value most about this project is that it combined technical implementation with evaluation and interpretation. It pushed me to think more carefully about methods, assumptions, and how to present technical results clearly. It also gave me an opportunity to build something that connected machine learning ideas to a dynamic decision-making environment.
+        </p>
+      </article>
 
-<h3>Mancala AI with Minimax and Alpha-Beta Pruning</h3>
-<a href="https://github.com/GrantPkr/Mancala">Link to repository</a>
-<p>
-My Mancala AI project is another good example of the kind of work I enjoy. In that project, I implemented decision-making strategies using minimax and alpha-beta pruning, which gave me hands-on experience with evaluation functions, search depth tradeoffs, and algorithmic reasoning. I like this project because it demonstrates a more classic AI perspective and shows how abstract ideas become concrete when you have to make a system choose effectively under constraints. It also helped strengthen my understanding of strategy, efficiency, and explainable logic in intelligent systems.
-</p>
+      <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
+        <h3 class="text-2xl font-semibold mb-3">Mancala AI with Minimax and Alpha-Beta Pruning</h3>
+        <a
+          href="https://github.com/GrantPkr/Mancala"
+          target="_blank"
+          class="inline-block mb-4 text-sky-400 hover:text-sky-300 underline"
+        >
+          View Repository
+        </a>
+        <p class="text-slate-300 leading-8">
+          My Mancala AI project is another good example of the kind of work I enjoy. In that project, I implemented decision-making strategies using minimax and alpha-beta pruning, which gave me hands-on experience with evaluation functions, search depth tradeoffs, and algorithmic reasoning. I like this project because it demonstrates a more classic AI perspective and shows how abstract ideas become concrete when you have to make a system choose effectively under constraints. It also helped strengthen my understanding of strategy, efficiency, and explainable logic in intelligent systems.
+        </p>
+      </article>
+    </div>
+  </main>
+</body>
+</html>

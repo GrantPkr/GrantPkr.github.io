@@ -3,44 +3,62 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grant Parker Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Grant Parker | About Me</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
-<nav>
-  <a href="index.html">About Me</a>
-  <a href="resume.html">Resume</a>
-  <a href="interests.html">Interests</a>
-  <a href="projects.html">Projects</a>
-  <a href="socials.html">Social Media</a>
-</nav>
-
-<body>
-  <header>
-    <h1>Grant Parker</h1>
-    <nav>
-      <a href="index.html">About Me</a>
-      <a href="resume.html">Resume</a>
-      <a href="interests.html">Interests</a>
-      <a href="projects.html">Projects</a>
-      <a href="socials.html">Social Media</a>
-    </nav>
+<body class="bg-slate-950 text-slate-100 min-h-screen">
+  <header class="border-b border-slate-800 bg-slate-950/90 sticky top-0 backdrop-blur z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <h1 class="text-2xl font-bold tracking-tight">Grant Parker</h1>
+        <p class="text-sm text-slate-400">Computer Science Student • AI • ML • Software Engineering</p>
+      </div>
+      <nav class="flex flex-wrap gap-3 text-sm font-medium">
+        <a class="px-3 py-2 rounded-lg bg-slate-800 text-white" href="index.html">About Me</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="resume.html">Resume</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="interests.html">Interests</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="projects.html">Projects</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="socials.html">Social Media</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Welcome</h2>
-            <p>
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <section class="grid md:grid-cols-3 gap-8 items-start">
+      <div class="md:col-span-2">
+        <p class="text-sm uppercase tracking-[0.2em] text-sky-400 mb-3">Welcome</p>
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          Building intelligent systems that are practical, reliable, and thoughtfully designed.
+        </h2>
+        <div class="space-y-5 text-slate-300 leading-8 text-lg">
+          <p>
             Welcome to my portfolio. I am Grant Parker, a Computer Science student at the University of Colorado Boulder with a strong interest in artificial intelligence, machine learning, automation, and software engineering. I created this site to bring my work into one place that shows not only what I have built, but also how I think about solving problems. Beyond serving as a course project, this portfolio is meant to function as a clear and honest representation of my direction, my technical interests, and the kind of engineer I want to become.
-            </p>
+          </p>
 
-            <p>
+          <p>
             A major reason I wanted to build this portfolio is that platforms like LinkedIn and GitHub are useful, but they do not fully let me tell a coherent story about my work. I wanted a space I could control, where visitors can quickly understand what I care about, what I have worked on, and what I have learned through building technical systems. My main audience includes recruiters, hiring managers, and engineers who may want to look more deeply at my projects. Because of that, I want this site to communicate reliability, clarity, and technical credibility. I want people to see that I care about building intelligent systems with engineering discipline, and that I think seriously about tradeoffs, practical impact, and responsible design.
-            </p>
+          </p>
 
-            <p>
+          <p>
             Throughout this portfolio, you will find project highlights, academic and technical work, extracurricular interests, my resume, and links to platforms where I share my work more directly. I am especially interested in projects that connect intelligence with usability, meaning systems that are not only capable, but also robust enough to fit into real workflows. I also care about the ethical and social side of automation, and I want that perspective to be reflected in how I present my work. My goal is for this site to feel calm, structured, and professional, while still giving a personal sense of who I am and where I am headed.
-            </p>
+          </p>
+        </div>
+      </div>
+
+      <aside class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
+        <h3 class="text-lg font-semibold mb-4">What you’ll find here</h3>
+        <ul class="space-y-3 text-slate-300">
+          <li>Project case studies and technical highlights</li>
+          <li>Academic and applied AI work</li>
+          <li>Resume and professional links</li>
+          <li>Interests and extracurricular background</li>
+        </ul>
+        <div class="mt-6 pt-6 border-t border-slate-800">
+          <a href="projects.html" class="inline-block bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold px-4 py-2 rounded-lg transition">
+            View Projects
+          </a>
+        </div>
+      </aside>
     </section>
   </main>
 </body>

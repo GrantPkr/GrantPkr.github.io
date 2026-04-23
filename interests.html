@@ -1,21 +1,68 @@
-<nav>
-  <a href="index.html">About Me</a>
-  <a href="resume.html">Resume</a>
-  <a href="interests.html">Interests</a>
-  <a href="projects.html">Projects</a>
-  <a href="socials.html">Social Media</a>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grant Parker | Interests</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen">
+  <header class="border-b border-slate-800 bg-slate-950/90 sticky top-0 backdrop-blur z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <h1 class="text-2xl font-bold tracking-tight">Grant Parker</h1>
+        <p class="text-sm text-slate-400">Computer Science Student • AI • ML • Software Engineering</p>
+      </div>
+      <nav class="flex flex-wrap gap-3 text-sm font-medium">
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="index.html">About Me</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="resume.html">Resume</a>
+        <a class="px-3 py-2 rounded-lg bg-slate-800 text-white" href="interests.html">Interests</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="projects.html">Projects</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-800 transition" href="socials.html">Social Media</a>
+      </nav>
+    </div>
+  </header>
 
-<h2>Highlights of Interests / Extracurricular</h2>
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <section class="mb-10">
+      <p class="text-sm uppercase tracking-[0.2em] text-sky-400 mb-3">Interests / Extracurricular</p>
+      <h2 class="text-4xl font-bold mb-4">Highlights of Interests</h2>
+      <p class="text-slate-300 text-lg leading-8 max-w-3xl">
+        Outside of technical work, I value creative outlets, time outdoors, and activities that help me stay grounded and engaged.
+      </p>
+    </section>
 
-<h3>Music performance</h3>
-<img src="assets/IMG_4543.JPG" alt="Baylock region jazz clinic" width="300">
-<p>
-One of my favorite ways to express creativity is through music. I grew up playing trombone and piano, and have played in many different ensembles over the years incuding jazz and classical seettings. I also love electronic music, and enjoy setting time aside to attend concerts.
-</p>
+    <div class="grid md:grid-cols-3 gap-8">
+      <article class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-xl">
+        <img src="assets/IMG_4543.JPG" alt="Baylock region jazz clinic" class="w-full h-80 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-3">Music Performance</h3>
+          <p class="text-slate-300 leading-8">
+            One of my favorite ways to express creativity is through music. I grew up playing trombone and piano, and have played in many different ensembles over the years including jazz and classical settings. I also love electronic music, and enjoy setting time aside to attend concerts. Music has been one of the most consistent ways I have developed discipline, collaboration, and creative expression outside of technical work.
+          </p>
+        </div>
+      </article>
 
-<h3>Skiing</h3>
-<img src="assets/IMG_1518.JPG" alt="Eldora" width="300">
-<p>
-Having been an undergraduate at CU, I have picked up an affinity for skiing. Getting out into the mountains is one of my favorite things to do.
-</p>
+      <article class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-xl">
+        <img src="assets/IMG_1518.JPG" alt="Eldora" class="w-full h-80 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-3">Skiing</h3>
+          <p class="text-slate-300 leading-8">
+            Having been an undergraduate at CU, I have picked up an affinity for skiing. Getting out into the mountains is one of my favorite things to do. Skiing gives me a strong balance to academic and technical work, and it has become one of the ways I recharge, stay active, and appreciate the environment around Boulder.
+          </p>
+        </div>
+      </article>
+
+      <article class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-xl">
+        <img src="assets/ai-ethics.jpg" alt="AI ethics and responsible automation" class="w-full h-80 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-3">AI Ethics and Responsible Automation</h3>
+          <p class="text-slate-300 leading-8">
+            One of the interests that most strongly shapes how I think is AI ethics and the broader impact of automation. I am interested not only in building systems that work, but in understanding what happens when they are used in real settings where reliability, fairness, and accountability matter. This perspective has influenced how I think about software design, especially in projects involving intelligent behavior. I want my work to reflect responsibility and practical care, rather than treating those concerns as separate from engineering. For me, responsible automation means building systems that are useful, transparent, and dependable enough to support real people without creating unnecessary fragility or confusion.
+          </p>
+      </div>
+    </article>
+    </div>
+  </main>
+</body>
+</html>
